@@ -13,7 +13,7 @@ git clone https://github.com/chrisarevalo11/md5.git
 Compile the script linking the OpenSSL library:
 
 ```bash
-g++ -o md5 md5.cpp -lssl -lcrypto
+g++ -o md5 src/md5.cpp -lssl -lcrypto
 ```
 
 Run the script:
